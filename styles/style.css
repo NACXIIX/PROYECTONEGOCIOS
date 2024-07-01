@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    grid-template-columns: 1fr 1fr; /* le indicamos que son 2 columnas */
+}
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+}
+.imgcolumn-1 {
+    background-image: url("/assets/kiosco.png");
+    background-size: cover; /* Con esto la imagen cubre todo el div */
+    background-position: center; /* Centramos la imagen en todo el div */
+}
+.imgcolumn-2 {
+    background-image: url("/assets/almacen.png");
+    background-size: cover; /* Con esto la imagen cubre todo el div */
+    background-position: center; /* Centramos la imagen en todo el div */
+}
