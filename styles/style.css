@@ -1,7 +1,12 @@
-html, body {
+body {
     background-color: black;
     height: 100%; /* Asegúrate de que el HTML y el body ocupen el 100% de la altura de la ventana gráfica */
     margin: 0;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
 }
 h1 {
     color:blueviolet;
