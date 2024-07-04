@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escribinos tu consulta</title>
+    <link rel="stylesheet" href="/kiosco/styles/styleform.css"
 </head>
-<body style= "background-color: rgb(66, 68, 67);">
+<body style= "background-color: rgba(230, 68, 28, 0.445);">
 
-    <form>
-        <b>Nombre y Apellidos: </b> <input type="text" name="username" id="email" required minlength="3"> <br>
-        <b>E-mail: </b> <input type="email" name="email" id="email" required> <br>
-        <input type="textarea" size="30px" placeholder="Escriba su consulta aquí" required> <br>
-        <input type="submit" name="submit" id="submit">
+    <form class="formulario">
+        <span class="input-style">Nombre y Apellidos: </span> <input class="input-style" type="text" name="username" id="email" required minlength="3"> <br>
+        <span class="input-style">E-mail: </span> <input class="input-style" type="email" name="email" id="email" required> <br>
+        <input class="input-style textarea-style" type="textarea" placeholder="Escriba su consulta aquí" required> <br>
+        <input type="submit" name="submit" id="submit" class="button-submit input-style">
     </form>
 </body>
 </html>
